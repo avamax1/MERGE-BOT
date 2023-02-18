@@ -1,17 +1,6 @@
 # MERGE-BOT
 ### PR's Welcomed
 <br>
-
-![GitHub Repo stars](https://img.shields.io/github/stars/yashoswalyo/MERGE-BOT?color=blue&style=flat)
-![GitHub forks](https://img.shields.io/github/forks/yashoswalyo/MERGE-BOT?color=green&style=flat)
-![GitHub issues](https://img.shields.io/github/issues/yashoswalyo/MERGE-BOT)
-![GitHub closed issues](https://img.shields.io/github/issues-closed/yashoswalyo/MERGE-BOT)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/yashoswalyo/MERGE-BOT)
-![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/yashoswalyo/MERGE-BOT)
-![GitHub contributors](https://img.shields.io/github/contributors/yashoswalyo/MERGE-BOT?style=flat)
-![GitHub repo size](https://img.shields.io/github/repo-size/yashoswalyo/MERGE-BOT?color=red)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/yashoswalyo/MERGE-BOT)
-
 An Telegram Bot By [Yash Oswal](https://t.me/yashoswalyo) To Merge multiple Videos in Telegram into single video. <br>
 Bugs should be reported at: [Telegram Group](https://t.me/yo_codes_support)
 
@@ -86,37 +75,12 @@ stats - (admin only) check bots stats
 
 ## Self Host
 ```sh
-$ git clone https://github.com/yashoswalyo/MERGE-BOT.git
-$ cd MERGE-BOT
-$ sudo apt-get install python3 python3-pip ffmpeg
-$ pip3 install -U pip
-$ pip3 install -U -r requirements.txt
+ git clone https://github.com/yashoswalyo/MERGE-BOT.git
+ cd MERGE-BOT
+ sudo apt-get install python3 python3-pip ffmpeg
+ pip3 install -U pip
+ pip3 install -U -r requirements.txt
 # <fill config.env correctly by looking at sample_config.env>
-$ bash start.sh
+ bash start.sh
 ```
 
-## License
-```
-Merge Bot, Telegram Video Merge Bot
-Copyright (c) 2021  Yash Oswal <https://github.com/yashoswalyo>
-
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU Affero General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU Affero General Public License for more details.
-
-You should have received a copy of the GNU Affero General Public License
-along with this program.  If not, see <https://www.gnu.org/licenses/>
-```
-
-## Credits
-
-- [Me](https://github.com/yashoswalyo) for [Nothing](https://github.com/yashoswalyo/MERGE-BOT) 😬
-- [Dan](https://github.com/delivrance) for [Pyrogram](https://github.com/pyrogram/pyrogram) ❤️
-- [Abir Hasan](https://github.com/AbirHasan2005) for his wonderful [code](https://github.com/AbirHasan2005/VideoMerge-Bot) ❤️
-- [Jigarvarma2005](https://github.com/Jigarvarma2005) and [SpechIDE](https://t.me/spechide) for helping me to fix bugs 🤓
