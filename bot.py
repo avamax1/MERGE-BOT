@@ -199,6 +199,7 @@ async def start_handler(c: Client, m: Message):
                 text=f"Hi **{m.from_user.first_name}**\n\n 🛡️ Unfortunately you can't use me\n\n**Contact: 🈲 @{Config.OWNER_USERNAME}** ",
                 quote=True,
             )
+	 await delete_all(root=f"downloads/{str(cb.from_user.id)}")
             return
     else:
         user.allowed = True
